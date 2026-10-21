@@ -243,7 +243,7 @@ namespace Microsoft.CST.AttackSurfaceAnalyzer
         [Option(HelpText = "Set to Disable Analysis.")]
         public bool DisableAnalysis { get; set; }
 
-        [Option(HelpText = "Exploded output")]
+        [Option(HelpText = "Output Each Result Type in a Separate File")]
         public bool ExplodedOutput { get; set; }
 
         [Option(HelpText = "Directory to output to")]
